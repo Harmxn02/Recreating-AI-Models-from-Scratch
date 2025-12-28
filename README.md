@@ -7,7 +7,7 @@ A project that is often recommended in the AI world is to recreate machine learn
 ## Report Structure
 
 > [!NOTE]
-> You can check the code for the models by clicking on them
+> You can check the code for the models by clicking on them (currently they are all empty placeholders, but I will fill them in as I implement each model)
 
 1. Introduction
 2. Classical Machine Learning Models
