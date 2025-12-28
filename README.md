@@ -11,7 +11,6 @@ A project that is often recommended in the AI world is to recreate machine learn
 
 1. Introduction
 2. Classical Machine Learning Models
-    - Linear Regression [🔗](/models/machine-learning/linear-regression/)
     - [Linear Regression](/models/machine-learning/linear-regression/)
     - [Logistic Regression](/models/machine-learning/logistic-regression/)
     - [Decision Trees](/models/machine-learning/decision-trees/)
