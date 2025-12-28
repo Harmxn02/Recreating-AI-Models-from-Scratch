@@ -1,0 +1,129 @@
+\documentclass{article}
+
+% ready for submission
+\usepackage[preprint, nonatbib]{nips_2018}
+
+% to compile a preprint version, e.g., for submission to arXiv, add
+% add the [preprint] option:
+% \usepackage[preprint]{nips_2018}
+
+% to compile a camera-ready version, add the [final] option, e.g.:
+% \usepackage[final]{nips_2018}
+
+% to avoid loading the natbib package, add option nonatbib:
+% \usepackage[nonatbib]{nips_2018}
+
+\usepackage{float}
+
+\usepackage[square,numbers,sort&compress]{natbib}
+\bibliographystyle{unsrtnat}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{hyperref}
+
+
+
+% ------------------------------
+%  Hyperlink and Citation Setup
+% ------------------------------
+
+\usepackage{color}
+\definecolor{blue}{RGB}{7, 116, 183}
+\definecolor{red}{RGB}{255, 0, 0}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=blue,
+	urlcolor=blue,
+	filecolor=blue
+}
+
+
+
+\title{Recreating AI Models From Scratch}
+
+% The \author macro works with any number of authors. There are two
+% commands used to separate the names and addresses of multiple
+% authors: \And and \AND.
+%
+% Using \And between authors leaves it to LaTeX to determine where to
+% break the lines. Using \AND forces a line break at that point. So,
+% if LaTeX puts 3 of 4 authors names on the first line, and the last
+% on the second line, try using \AND instead of \And before the third
+% author name.
+
+\author{
+Harman Preet Singh$^{*}$ \\ \texttt{harman.pnahal@gmail.com} \\
+\AND
+\\
+\normalsize $^{\ast}$Corresponding author
+}
+
+\begin{document}
+\maketitle
+
+
+% ABSTRACT
+\input{sections/Abstract.tex}
+
+
+\section{Introduction}\label{sec:introduction}
+
+
+
+\section{Machine Learning}\label{sec:ml_models}
+\subsection{Linear regression}
+\subsection{Logistic regression}
+\subsection{Decision Trees}
+\subsection{Random Forest}
+\subsection{XGBoost}
+
+
+
+\section{Deep Learning}\label{sec:dl_models}
+\subsection{Convolutional Neural Networks}
+\subsection{Recurrent Neural Networks}
+\subsection{Transformers}
+
+
+
+\section{Experiments and Results}\label{sec:experiments_results}
+\subsection{Linguistic Probing Tasks}
+\subsection{Image Classification on CIFAR-10}
+\subsection{Text Classification on IMDB}
+
+
+
+\section{Conclusion}\label{sec:conclusion}
+
+
+
+\section{Future work}\label{sec:future_work}
+Since the main focus of this report was to start with recreating machine learning models like Random Forests, XGBoost and to then gradually continue to Deep Learning models, I made the decision to leave Reinforcement Learning models for another time. In the future, I would like to explore Reinforcement Learning models such as Deep Q-Networks (DQN) \cite{mnih2015human} and Proximal Policy Optimization (PPO) \cite{schulman2017proximalpolicyoptimizationalgorithms}.
+
+
+
+\section{Discussion}\label{sec:discussion}
+
+
+
+\subsubsection*{Acknowledgments}
+
+% \bibliographystyle{plainnat}
+\bibliography{references}
+
+% (optional) APPENDIX
+% \input{sections/Appendix.tex}
+
+
+\end{document}
